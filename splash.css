@@ -7,14 +7,14 @@ body {
   margin: 0;
   text-align: center; }
 
-header {
+.header {
   padding: 1rem;
   text-align: left; }
-header .company-name {
+.header .company-name {
   font-weight: 600;
   margin-left: .5rem;
   vertical-align: middle; }
-header img {
+.header img {
   max-height: 25px;
   vertical-align: middle; }
 
