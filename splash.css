@@ -1,0 +1,219 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+  letter-spacing: .1px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  counter-reset: item;
+  margin: 0;
+  text-align: center; }
+
+header {
+  padding: 1rem;
+  text-align: left; }
+header .company-name {
+  font-weight: 600;
+  margin-left: .5rem;
+  vertical-align: middle; }
+header img {
+  max-height: 25px;
+  vertical-align: middle; }
+
+footer {
+  text-align: left;
+  padding: 1rem 0;
+  margin: 0 auto; }
+
+section, footer {
+  max-width: 85%; }
+
+.clearfix {
+  clear: both; }
+
+h1 {
+  font-family: 'Prompt', sans-serif;
+  font-size: 3rem;
+  letter-spacing: 3px;
+  line-height: 1.2;
+  margin: 0;
+  text-shadow: 1px 1px 40px rgba(22, 23, 31, 0.4) !important; }
+
+h2 {
+  font-size: 1.675rem;
+  font-weight: 600;
+  margin: 0 0 1rem 0; }
+
+h3 {
+  font-size: 1.25rem;
+  margin: 1rem 0 .5rem 0; }
+
+.button-group {
+  margin-top: 2rem; }
+
+input[type="submit"] {
+  color: #1a78a5;
+  -webkit-appearance: none; }
+
+.southcabin-button {
+  background: none;
+  border: none;
+  display: inline-block;
+  font-size: .875rem;
+  font-weight: 600;
+  margin: 0 auto 1rem auto;
+  padding: .875rem 1rem;
+  text-decoration: none;
+  white-space: normal;
+  -webkit-transition: box-shadow 0.3s cubic-bezier(0.2, 0.6, 0.2, 1), background-color 0.25s ease-out, color 0.25s ease-out; }
+.southcabin-button.white {
+  background: #fff;
+  color: #000; }
+.southcabin-button.white:hover {
+  background: #fff;
+  cursor: pointer;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.18), 0 1px 7px 0 rgba(0, 0, 0, 0.13), 0 3px 1px -1px rgba(0, 0, 0, 0.23); }
+.southcabin-button.blue {
+  background: #0074e4;
+  color: #fff; }
+.southcabin-button.blue:hover {
+  background: rgba(20, 56, 255, 0.8);
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.18), 0 1px 7px 0 rgba(0, 0, 0, 0.13), 0 3px 1px -1px rgba(0, 0, 0, 0.23); }
+
+.hero-section {
+  background-image: url("cover.jpg");
+  background-size: cover;
+  color: #fff;
+  padding: 3rem 2rem;
+  max-width: 100%; }
+.hero-section p {
+  text-shadow: 1px 1px 40px rgba(22, 23, 31, 0.4) !important;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 1rem auto 2rem auto; }
+
+#mc_embed_signup input.button {
+  display: inline-block; }
+#mc_embed_signup input.southcabin-email::placeholder {
+  color: #000;
+  white-space: normal; }
+#mc_embed_signup input.southcabin-email {
+  padding: .875rem 1rem;
+  font-size: .875rem;
+  display: block;
+  width: 75%;
+  background: #fff;
+  border: solid 1px #fff;
+  color: #000;
+  margin: 0 auto 1.5rem auto; }
+
+.problems-section {
+  margin: 0 auto;
+  padding: 2rem 0; }
+.problems-section p, .problems-section li {
+  font-size: 1rem;
+  text-align: left; }
+.problems-section p {
+  margin-top: 0;
+  font-weight: 100; }
+.problems-section li {
+  font-weight: 400; }
+.problems-section img {
+  max-width: 100%; }
+.problems-section h2 {
+  text-align: left;
+  margin-top: 1.5rem; }
+.problems-section li {
+  text-align: left;
+  margin-bottom: .25rem; }
+.problems-section li::before {
+  content: url(check-icon.png);
+  font-size: 2rem;
+  margin-right: 1rem;
+  vertical-align: middle; }
+
+ol, ul {
+  list-style: none;
+  margin: 2rem 0;
+  padding: 0; }
+
+.features-section li {
+  margin-bottom: 2rem; }
+.features-section li::before {
+  border: solid 1px #fff;
+  border-radius: 100%;
+  width: 1.2em;
+  font-size: 3rem;
+  display: inline-block;
+  color: #fff; }
+.features-section li h3 {
+  color: #fff; }
+.features-section li p {
+  color: #fff;
+  font-size: 1rem;
+  margin: 0; }
+
+.features-section {
+  background: -webkit-radial-gradient(farthest-corner at 48% -60%, #0074e4 0%, #0074e4 60%) !important;
+  background: -moz-radial-gradient(farthest-corner at 48% -60%, #0074e4 0%, #0074e4 60%) !important;
+  background: radial-gradient(farthest-corner at 48% -60%, #0074e4 0%, #0074e4 60%) !important;
+  margin: 0 auto;
+  padding: 2rem; }
+.features-section h2 {
+  color: #fff; }
+.features-section li {
+  counter-increment: item; }
+.features-section li::before {
+  content: counter(item); }
+
+.content {
+  background: rgba(20, 56, 255, 0.8);
+  color: #fff;
+  padding: 2rem; }
+
+.button {
+  font-size: .675rem;
+  padding: .875rem; }
+
+.desktop-only {
+  display: none; }
+
+@media screen and (min-width: 40em) {
+  h1 {
+    font-size: 5rem; }
+
+  h2 {
+    font-size: 2.25rem; }
+
+  h3 {
+    font-size: 1.75rem; }
+
+  #mc_embed_signup input.southcabin-email {
+    font-size: .875rem;
+    width: 40%; }
+
+  .desktop-only {
+    display: initial; }
+
+  .hero-section {
+    padding: 7rem 0; }
+  .hero-section p {
+    font-size: 3rem; }
+
+  .problems-section {
+    padding: 3rem 0; }
+  .problems-section p, .problems-section li {
+    font-size: 1.25rem;
+    line-height: 1.6; }
+  .problems-section img {
+    max-width: 40%;
+    float: left;
+    margin: 0 3rem 0 0; }
+  .problems-section h2 {
+    margin-top: 0; }
+
+  .southcabin-button {
+    font-size: .875rem;
+    padding: 1rem 1.5rem;
+    width: initial; } }
+/* https://stackoverflow.com/questions/43454610/video-background-overlaying-section */
+
+/*# sourceMappingURL=splash.css.map */
